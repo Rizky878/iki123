@@ -149,7 +149,7 @@ else if (text == 'Rizky'){
 conn.sendMessage(id, 'aku pembuat Rzky bot' ,MessageType.text);
 }
 else if (text == 'kurumi'){
-conn.sendMessage(id, 'pacar Rizky' ,MessageType.text);
+conn.sendMessage(id, 'pacar Rizky🏃' ,MessageType.text);
 }
 else if (text == 'bangsat'){
 conn.sendMessage(id, 'toxic terdeteksi' ,MessageType.text);
@@ -249,6 +249,12 @@ conn.sendMessage(id, 'Sama sama, semoga harimu menyenangkan :)' ,MessageType.tex
 }
 else if (text == 'owner lu mana'){
 conn.sendMessage(id, 'cie rindu owner ku yaa ciee😳' ,MessageType.text);
+}
+else if (text == 'tohka'){
+conn.sendMessage(id, 'pacar Stephen🏃' ,MessageType.text);
+}
+else if (text == 'chizuru'){
+conn.sendMessage(id, 'pacar Rasya🏃' ,MessageType.text);
 }
 
 const { animPict, cewePict, cowoPict } = require('./lib/pict')
