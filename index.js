@@ -11,7 +11,7 @@
 const qrcode = require("qrcode-terminal")
 const moment = require("moment-timezone")
 const fs = require("fs")
-const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
+const vcard = 'BEGIN:VCARD\n' // metad ko ata of the contact card
             + 'VERSION:3.0\n' 
             + 'Aris\n' // full name
             + 'ORG:C/O RIZKY BOT ;\n' // the organization of the contact
@@ -305,17 +305,7 @@ client.on('message-new', async (m) => {
            client.sendMessage(id, donate.donate(id, A187, tanggal),MessageType.text)
            break          
       case 'info':
-           client.sendMessage(id, info.info(id, A187, tanggal),MessageType.text)
-           break             
-       case 'nulis':
-           nulis(value)
-               .then(data => {
-                   client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m } )
-                   client.sendMessage(id, data,MessageType.image { quoted: m } 
-               })i
-               .catch(err => {
-                   console.log(err)
-               })
+           client.sendMessage(id, info.info(id, A187, tanggal),MessageType
            break
        case 'say':
            await client.sendMessage(id, value,MessageType.text { quoted: m } )
