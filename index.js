@@ -311,7 +311,7 @@ client.on('message-new', async (m) => {
            client.sendMessage(id, donate.donate(id, A187, tanggal),MessageType.text)
            break          
       case 'info':
-           client.sendMessage(id, info.info(id, A187, tanggal),MessageType
+           client.sendMessage(id, info.info(id, A187, tanggal),MessageType.text)
            break
        case 'say':
            await client.sendMessage(id, value,MessageType.text { quoted: m } )
