@@ -313,18 +313,6 @@ client.on('message-new', async (m) => {
       case 'info':
            client.sendMessage(id, info.info(id, A187, tanggal),MessageType.text)
            break
-       case 'say':
-           await client.sendMessage(id, value,MessageType.text { quoted: m } )
-           break
-       case 'beruang':
-           client.sendMessage(id, beruang.beruang(id, MessageType.text { quoted: m } )
-           break
-       case 'love':
-           client.sendMessage(id, love.love(id, MessageType.text { quoted: m } )
-           break
-       case 'rumah':
-           client.sendMessage(id, rumah.rumah(id, MessageType.text { quoted: m } )
-           break        
        case 'ytmp3':
            ytdl('mp3', value)
                .then(data => {
