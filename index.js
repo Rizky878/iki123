@@ -318,7 +318,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                    const { judul, size, hasil: link } = data
                    let hasil = `✅ Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${judul}\n\nUkuran audio: ${size}\n\nLink: ${link}`
-                   client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m } )
+                   client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m })
                    client.sendMessage(id, hasil,MessageType.text { quoted: m } )
                })
                .catch(err => {
@@ -330,7 +330,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                    const { judul, size, hasil: link } = data
                    let hasil = `✅ Video Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${judul}\n\nUkuran audio: ${size}\n\nLink: ${link}`
-                   client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m } )
+                   client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m })
                    client.sendMessage(id, hasil,MessageType.text { quoted: m } )
                })
                .catch(err => {
@@ -342,7 +342,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                     const { size, hasil: link } = data
                     let hasil = `✅ Berhasil! silahkan klik link di bawah untuk mendownload hasilnya!\nKlik link dibawah🗡️\n\nSize: ${size}\n\nLink: ${link}`
-                    client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m } )
+                    client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m })
                     client.sendMessage(id, hasil ,MessageType.text { quoted: m } )
                })
                .catch(err => {
@@ -354,7 +354,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                     const { url, nama, durasi, deskripsi } = data
                     let hasil = `✅ Berhasil!!! Silahkan klik link dibawah ini untuk mendownload hasilnya! \nKlik link dibawah🗡️\n\nJudul: ${deskripsi} \n\nDurasi: ${durasi}\n\nNama: ${nama}\n\nUrl: ${url}`;
-                    client.sendMessage(id, hasil,MessageType.text { quoted: m } )
+                    client.sendMessage(id, hasil,MessageType.text { quoted: m })
                })
                .catch(err => {
                    console.log(err)
@@ -365,7 +365,7 @@ client.on('message-new', async (m) => {
                .then(data => {
                     const { hasil: res } = data
                     let hasil = `📝Menurut Wikipedia:\n\n${res}`
-                    client.sendMessage(id, hasil,MessageType.text { quoted: m } )
+                    client.sendMessage(id, hasil,MessageType.text { quoted: m })
                })
                .catch(err => {
                    console.log(err)
