@@ -121,8 +121,6 @@ const {
 } = require('./lib')
 
 //Chat XP-TN
-else if (text == 'assalamualaikum'){
-conn.sendMessage(id, 'waalaikumsalam, Ketik !help untuk melihat fitur fitur bot' ,MessageType.text);
 }
 else if (text == 'salam'){
 conn.sendMessage(id, 'Waalaikumsalam, Ketik !help untuk melihat fitur fitur bot' ,MessageType.text);
