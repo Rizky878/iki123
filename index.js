@@ -316,9 +316,6 @@ client.on('message-new', async (m) => {
        case 'say':
            await client.sendMessage(id, value,MessageType.text { quoted: m } )
            break
-        case 'rumah':
-           client.sendMessage(id, rumah.rumah(id, MessageType.text { quoted: m } )
-           break
        case 'beruang':
            client.sendMessage(id, beruang.beruang(id, MessageType.text { quoted: m } )
            break
