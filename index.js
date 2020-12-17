@@ -311,8 +311,8 @@ client.on('message-new', async (m) => {
            nulis(value)
                .then(data => {
                    client.sendMessage(id, '[❗] WAIT sayang🖤',MessageType.text { quoted: m } )
-                   client.sendMessage(id, data,MessageType.image { quoted: m } )
-               })
+                   client.sendMessage(id, data,MessageType.image { quoted: m } 
+               })i
                .catch(err => {
                    console.log(err)
                })
