@@ -15,7 +15,7 @@
     "moment-timezone": "^0.5.32",
     "needle": "^2.5.2",
     "node-tesseract-ocr": "^2.0.0",
-        "async": "^2.4.1",
+        "async": "^2.6.4",
             "node-gtts": "^2.0.2",
     "performance-now": "^2.1.0",
     "request": "^2.81.0",
