@@ -12,7 +12,7 @@
     "dotenv": "^8.2.0",
     "image-to-base64": "^2.1.1",
         "node-gtts": "^2.0.2",
-    "moment-timezone": "^0.5.32",
+    "moment-timezone": "^0.5.35",
     "needle": "^2.5.2",
     "node-tesseract-ocr": "^2.0.0",
         "async": "^2.4.1",
